@@ -20,7 +20,7 @@ refcursed.balance_bool()
 
 ## Unit testing
 
-Have you ever wanted to make sure that your code you're calling isn't creating extra aliases to a certain value?
+Have you ever wanted to make sure that code you're calling isn't creating extra aliases to a certain value?
 
 Now you can! With the new `expect_ref_delta` context manager (compare to `pytest.raises`), you can right unit tests that ensure exactly the amount of references you expect to be added/removed are.
 
